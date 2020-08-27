@@ -1,0 +1,226 @@
+/*--===========================================================================================
+
+AUTHOR NAME :   M I SAGAR
+WEBSITE     :   www.sagarwebdeveloper.com
+E-MAIL      :   sagar.ilius@hotmail.com
+
+===========================================================================================--*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+hr {
+    background-color: red;
+}
+
+.my-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+/*--=================== SECTION ME STYLE ===============================--*/
+
+.section_title {} .section_subtitle {
+    margin-bottom: 7px;
+    padding-left: 7px;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    border-left: 3px solid #bfa67a;
+    font-size: 700;
+}
+
+.section_main_title {
+    margin-top: 0;
+    margin-bottom: 37px;
+    font-size: 30px;
+    line-height: 1.27;
+    font-weight: 300;
+}
+
+.section_main_title strong {
+    font-weight: 600;
+}
+
+.shadow {
+    box-shadow: 0 2.5rem 1rem rgba(0,0,0,.50)!important;
+}
+
+.btn-color-background {
+    /* -moz-user-select: none; */
+    background-image: -webkit-linear-gradient(145deg, #faa61f 0%, #faa61f 0%, #ed1847 100%);
+    border: 1px solid #bfa67a;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 12px 48px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    vertical-align: middle;
+}
+
+.btn-color-background:hover {
+    text-decoration: none;
+    color: #272627;
+    background: transparent;
+    
+}
+
+/*--================================--*/
+
+
+
+/*--============ Navbar ====================--*/
+
+.navbar a {
+    font-weight: 600;
+    
+}
+
+.bg-light {
+    background-image: -webkit-linear-gradient(145deg, #faa61f 0%, #faa61f 0%, #ed1847 100%);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+
+/*--============ Affaliate Style ====================--*/
+
+.affiliate_style_text {
+    color: rgb(99, 97, 97);
+    
+}
+
+/* Lightbox Portfolio Section */
+
+.lightbox-gallery {
+    background-image: linear-gradient(#4A148C, #E53935);
+    background-repeat: no-repeat;
+    color: #000;
+    overflow-x: hidden
+}
+
+.lightbox-gallery p {
+    color: #fff
+}
+
+.lightbox-gallery h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: #fff
+}
+
+@media (max-width:767px) {
+    .lightbox-gallery h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+
+.lightbox-gallery .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 40px
+}
+
+.lightbox-gallery .intro p {
+    margin-bottom: 0
+}
+
+.lightbox-gallery .photos {
+    padding-bottom: 20px
+}
+
+.lightbox-gallery .item {
+    padding-bottom: 30px
+}
+
+/*-----------Footer--------------*/
+
+.page-footer {
+    background-color: #00838f;
+}
+
+.footer-copyright {
+    color: #000;
+}
+
+.footer-copyright a {
+    color: #000;
+    font-weight: bold;
+}
+
+.fa {
+    color: #fff!important;
+}
+
+/* Social Icon Sticky Bar */
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
+
+
+  
